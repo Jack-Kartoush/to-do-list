@@ -1,0 +1,77 @@
+ .todo-container{
+  max-height: 100vh;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px 1fr min-content;
+
+}
+
+header{
+  clip-path: polygon(0 80%, 0 0, 100% 0, 100% 92%, 48% 65%);
+  
+}
+footer{
+  margin-top: 20px;
+}
+ul{
+  list-style: none;
+
+}
+
+
+.box .input-bar{
+  display: block; 
+  max-width: 100%;
+ padding: 10px;
+ appearance: none;
+ border:none;
+ border-bottom: 1px solid #000;
+outline: none;
+background: none;
+
+}
+p{
+  padding: 10px;
+  word-break: break-all;
+}
+
+.listBox{
+
+  max-height: 55vh;
+  width: 100%;
+  overflow-y: auto;
+}
+.listBox::-webkit-scrollbar{
+  width: 3px;
+  
+}
+.listBox::-webkit-scrollbar-thumb{
+ background-color: black;
+ scroll-behavior:auto;
+
+}
+.strike {
+  text-decoration: line-through;
+  color: rgba(228, 29, 29, 0.913);
+}
+.edit-input{
+  min-width: 100%;
+}
+.animatie{
+  animation: animate__bounceOutRight; 
+  animation-duration: 2s;
+}
+.addbtn:hover{
+  animation: rubberBand;
+  animation-duration: 1s;
+}
+
+.clearbtn{
+  margin-right: 10px;
+}
+.clearbtn:hover{
+  animation: jello;
+  animation-duration: 500ms;
+ 
+}
