@@ -125,7 +125,7 @@
     >
       Clear list
     </button>
-   
+    <!-- <qrcode-vue :value="JSON.stringify(tasks.map(task => task.text))" :size="size" level="H"/> -->
   </footer> 
   </div>
 
@@ -133,6 +133,8 @@
 
 <script>
 import toDo from "./components/toDo.vue";
+import QrcodeVue from 'qrcode.vue'
+
 export default {
   name: "app",
 
@@ -143,6 +145,8 @@ export default {
       tasks: [],
       text: null,
       taskEmpty: false,
+      value: 'https://example.com',
+      size: 100,
     };
     
   },
