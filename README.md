@@ -9,7 +9,7 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
-See [Demo](http://localhost:3000/).
+See [Demo](http://run.sh/).
 ## Project Setup
 
 ```sh
