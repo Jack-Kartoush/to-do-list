@@ -9,7 +9,7 @@ This template should help get you started developing with Vue 3 in Vite.
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
-See [Demo](run.sh).
+See [Demo](bash(http//to-do-list/blob/master/run.sh/)).
 ## Project Setup
 
 ```sh
